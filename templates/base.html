@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>Snacks App</title>
+    
+    </head>
+
+    <body> 
+        <header>
+            <nav>
+                <a href="{% url 'home' %}"> Home </a>
+                <div></div>
+                <a href="{% url 'about' %}"> About </a>
+            </nav>
+        </header>
+        
+        {% block contents%}
+
+        {% endblock contents%}
+
+        <footer>
+
+        </footer> 
+    </body> 
+</html>
